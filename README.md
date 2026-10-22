@@ -16,7 +16,7 @@ El frontend consume servicios REST de una API desarrollada con ASP.NET Core, man
 
 ### Detalle Cuentas bancaria
 
-![Cuentas bancarias](docs/images/accounts.PNG)
+![Cuentas bancarias](docs/images/accounts_details.PNG)
 
 ### Transferencias bancarias
 
@@ -142,7 +142,7 @@ El repositorio **DigitalBankingAPI** incluye scripts SQL para crear y poblar la 
 Consulta el repositorio del backend para acceder a los scripts y seguir las instrucciones de configuración correspondientes.
 
 ### Usuarios de pruebas:
-Username: cramirez, password:Demo123*
+Username: cramirez, password:Demo123* y 
 Usename:  mlopez, password:Demo123*
 
 ## 📁 Capturas de pantalla
