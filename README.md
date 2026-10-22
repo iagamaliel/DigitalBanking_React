@@ -8,19 +8,19 @@ El frontend consume servicios REST de una API desarrollada con ASP.NET Core, man
 
 ### Inicio de sesión
 
-![Inicio de sesión](docs/images/login.png)
+![Inicio de sesión](docs/images/login.PNG)
 
 ### Dashboard
 
-![Dashboard](docs/images/dashboard.png)
+![Dashboard](docs/images/dashboard.PNG)
 
 ### Detalle Cuentas bancaria
 
-![Cuentas bancarias](docs/images/accounts.png)
+![Cuentas bancarias](docs/images/accounts.PNG)
 
 ### Transferencias bancarias
 
-![Cuentas bancarias](docs/images/transfer.png)
+![Cuentas bancarias](docs/images/transfer.PNG)
 
 > Las capturas deben corresponder a la aplicación real. Si alguna funcionalidad todavía está en desarrollo, omite su imagen hasta que esté disponible.
 
@@ -129,14 +129,6 @@ Para probar localmente el resultado de la compilación:
 npm run preview
 ```
 
-## 🔌 Integración con el backend
-
-El frontend se comunica con la API de Digital Banking mediante solicitudes HTTP.
-
-La URL base se configura mediante `VITE_API_URL`, y los servicios de cada funcionalidad delegan las solicitudes en un cliente HTTP común.
-
-El backend debe estar disponible para que funcionen las operaciones que requieren información del servidor.
-
 ## 🔌 Integración con DigitalBankingAPI
 
 Este proyecto frontend consume los servicios REST de **[DigitalBankingAPI](https://github.com/iagamaliel/DigitalBankingAPI)**, una API desarrollada con ASP.NET Core que proporciona las funcionalidades y el acceso a los datos de la aplicación de banca digital.
@@ -149,9 +141,9 @@ El repositorio **DigitalBankingAPI** incluye scripts SQL para crear y poblar la 
 
 Consulta el repositorio del backend para acceder a los scripts y seguir las instrucciones de configuración correspondientes.
 
-Usuarios de pruebas:
-Usename: cramirez, password:Demo123*
-Usename: mlopez, password:Demo123*
+### Usuarios de pruebas:
+Username: cramirez, password:Demo123*
+Usename:  mlopez, password:Demo123*
 
 ## 📁 Capturas de pantalla
 
